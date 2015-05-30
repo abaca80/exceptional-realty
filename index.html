@@ -16,37 +16,56 @@
 
 
 <body> 
-	<!-- The body is the entire viewable area of the web page.  For example we can see text, images, links, and media.  -->
+	<header>
 
 <h1>Exceptional</h1>
 <h2>Realty Group</h2>
 
-<!--links -->
 
-<a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+<nav>
+	<a href="index.html">About</a> <a href="new-properties.html">New Properties</a> <a href="real-estate-listings.html">Listings</a> <a href="market-report.html">Market Report</a> <a href="contact.html">Contact</a> <a href="http://hud.gov" target="_blank">H.U.D.</a>
+</nav>
 
-<img src="images/intro-pic.jpg" alt="A beautiful living room"
-title="Welcome to Exceptional Realty">
+</header>
 
-<!--foldername/ =go inside folder
-	filename/ = use a file in the current directory you are in
-	../= will leave the current folder and go up to the parent directory.
--->
+<section id="featured-property">
+	<figure>
+		<img src="images/intro-pic.jpg" alt="A beautiful living room"
+		title="Welcome to Exceptional Realty">
+		<figcaption>345 Carl Street Apt 12, Carrol Rd. Brooklyn, NY - Photo by Denise Richards
+		</figcaption>
 
-<p>Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Iusto, placeat, tempora. Tenetur rem reiciendis ex autem fugit, molestias id delectus facilis, amet minima excepturi sit repellat? Autem veritatis, omnis minus.</p>
+	</figure>
 
-<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nihil mollitia voluptate voluptates blanditiis debitis labore, assumenda accusamus. Ut quam consectetur laborum perferendis magni sit quia, repellendus temporibus expedita et?</p>
+	<p>
+	Lorem ipsum dolor sit amet, <br> consectetur adipisicing elit. Iusto, placeat, tempora. Tenetur rem reiciendis ex autem fugit, molestias id delectus facilis, amet minima excepturi sit repellat? Autem veritatis, omnis minus.
+	</p>
 
-<!-- promo video -->
-<video controls>
-	<source src="videos/real-estate.mp4" type="video/mp4">
-	<source src="videos/real-estate2.ogv" type="video/ogg">
-	Your browser does not support HTML5 video. <a href="http://browsehappy.com">Please upgrade your browser.</a>
-	
+	<p>
+	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta, nihil mollitia voluptate voluptates blanditiis debitis labore, assumenda accusamus. Ut quam consectetur laborum perferendis magni sit quia, repellendus temporibus expedita et?
+	</p>
+</section>
 
 
+<section id="promotional">
+	<figure>
 
-</video>
+		<video controls>
+			<source src="videos/real-estate.mp4" type="video/mp4">
+			<source src="videos/real-estate2.ogv" type="video/ogg">
+			Your browser does not support HTML5 video. <a href="http://browsehappy.com">Please upgrade your browser.</a>
+		</video>
+		<figcaption>Exceptional Realty Group Promotional Video - Source: Archive.org
+		</figcaption>
+	</figure>
+
+</section>
+
+<footer>
+	&copy; 2015 Exceptional Realty. All Rights Reserved.	
+
+</footer>
+
 
 </body>
 
